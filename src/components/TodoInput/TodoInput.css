@@ -1,0 +1,16 @@
+.inputWrap {
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
+}
+
+.c_inputWrap {
+    width:200px;
+    height:20px;
+    margin-right:1vw;
+}
+
+.c_button {
+    width:40px;
+    height:25px;
+}
