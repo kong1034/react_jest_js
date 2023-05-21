@@ -1,5 +1,5 @@
-import { TodoInput } from "./TodoInput/TodoInput"
-import { TodoList } from "./TodoList/TodoList"
+import { TodoInput } from "./TodoInput/TodoInput.jsx"
+import { TodoList } from "./TodoList/TodoList.jsx"
 
 export const TodoWrap = () => {
     return <section>
