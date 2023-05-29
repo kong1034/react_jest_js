@@ -7,7 +7,7 @@ export const TodoList = () => {
     const [ul, setUl] = document.querySelectorAll('.ulWrap');
 
     useEffect(() => {
-            axios.get('http://localhost:4000/todos')
+            axios.get('https://my-json-server.typicode.com/kong1034/db/todos')
             .then(res => setTodos(res.data))
             .catch(err => {
                 console.error(err);

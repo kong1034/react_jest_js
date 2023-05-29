@@ -9,7 +9,7 @@ export const TodoInput = () => {
 
     const addBtn = () => {
         todosRef.current.value.length === 0 || todosRef.current.value === ' ' ? alert('할일을 입력해주세요.') : 
-        axios.post('http://localhost:4000/todos', {
+        axios.post('https://my-json-server.typicode.com/kong1034/db/todos', {
             todo: todosRef.current.value
         })
         .then(res => {
